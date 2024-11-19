@@ -6,7 +6,6 @@ A = [
 ]; % Defining matrix A
 
 x = [1; 1; 0;1]; % Initial guess for eigenvector
-
 k = 0; % Initial guess for eigenvalue
 
 for i = 1:10000
