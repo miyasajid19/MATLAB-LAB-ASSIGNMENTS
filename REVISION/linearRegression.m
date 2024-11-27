@@ -56,4 +56,4 @@ for j = 1:1
 end
 
 % Display the solution
-x_vals
+disp(x_vals)
