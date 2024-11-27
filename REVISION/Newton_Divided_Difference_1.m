@@ -28,4 +28,4 @@ sum=0;
 for i =1:length(x)
     sum=sum+D(i,i)*product(i);
 end
-fprintf("The soluion is %f at x=%f",sum,p);
+fprintf("The solution is %f at x=%f",sum,p);
