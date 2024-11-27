@@ -3,7 +3,7 @@ A = [
     1,2,0,1;
     0,0,3,3;
     0,1,2,3;
-]; % Defining matrix A
+    ]; % Defining matrix A
 
 x = [1; 1; 0;1]; % Initial guess for eigenvector
 k = 0; % Initial guess for eigenvalue
