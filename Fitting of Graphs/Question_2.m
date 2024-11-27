@@ -14,7 +14,7 @@ length(x)
 A = [length(x), xsum, ysum; xsum, x2, xy];
 
 n = 2;
-for i = 1:n
+for i = 1:2
     if A(i,i) == 0
         for j = i+1:n
             if A(j,i) ~= 0
@@ -39,4 +39,4 @@ x_sol = zeros(n, 1);
 for i = n:-1:1
     x_sol(i) = (A(i,end) - A(i, 1:end-1) * x_sol) / A(i,i);
 end
-disp(['The linear equation is: y = ', num2str(x_sol(2)),' x + (', num2str(x_sol(1)),')']);
+disp(['The linear equation is: y = ', num2str(x_sol(1)),' x + (', num2str(x_sol(2)),')']);
