@@ -1,5 +1,5 @@
 f=@(x) 2*sin(pi*x)+x;
-g=@(x) x-(2*sin(pi*x)+1)/(s*pi*cos(pi* x)+1);
+g=@(x) x-(2*sin(pi*x)+1)/(2*pi*cos(pi* x)+1);
 x=1;
 for i=1:1000000
     x1=g(x);
